@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AsistenciaDiasActivity"
+    android:background="@color/white"
+    android:orientation = "vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        >
+
+        <ImageButton
+            android:id="@+id/ivbackasistenciadias"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:layout_marginStart="5dp"
+            android:rotation="90"
+            android:src="@drawable/ic_arrow_down_solid" />
+
+
+        <TextView
+            android:id="@+id/tvDiaAHD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserratbold"
+            android:text="Reporte"
+            android:textAlignment="center"
+            android:textColor="@color/blueoscuro"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLnodias"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No se ha registrado ninguna asistencia"
+            android:layout_marginVertical="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/blueoscuro"
+            android:fontFamily="@font/montserratbold"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_face_grin_beam_sweat_solid" />
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height= "match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight = ".3"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_asistenciadias"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_weight = "1.7"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnReporteG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button_register"
+            android:backgroundTint="@color/blueoscuro"
+            android:fontFamily="@font/montserratbold"
+            android:layout_marginVertical="20dp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginHorizontal="60dp"
+            android:text="Reporte general"
+            android:drawableStart="@drawable/ic_download_solid"
+            android:drawableTint="@color/white"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+</LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

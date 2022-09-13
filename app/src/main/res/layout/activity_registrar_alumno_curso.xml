@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/register_alumno_curso_layout"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegistrarAlumnoCurso"
+    android:background="@color/white"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lyContenedorAH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageButton
+                    android:id="@+id/btbackRAC"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:rotation="90"
+                    android:src="@drawable/ic_arrow_down_solid" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserratbold"
+                    android:text="Agregar alumno"
+                    android:textAlignment="center"
+                    android:textColor="@color/blueoscuro"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/custom_cardview_round"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tvCedulaAlumn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/montserratbold"
+                    android:text="Cedula del Alumno"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/etCedulaAlumn"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/tvCedulaAlumn"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/ic_address_card_solid"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/white"
+                    android:fontFamily="@font/montserratregular"
+                    android:hint="Ingrese la cedula"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/etNomAlumn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/etCedulaAlumn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserratbold"
+                    android:text="Nombre del alumno"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/black"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvNomAlumn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:paddingTop="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/ic_user_solid"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/white"
+                    android:fontFamily="@font/montserratregular"
+                    android:paddingStart="15dp"
+                    android:text="----  Vacio  -----"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/etCorreoAlumnRAC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvNomAlumn2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserratbold"
+                    android:text="Correo del alumno"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tvCorreoAlumn2RAC"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_below="@+id/etCorreoAlumnRAC"
+                    android:layout_marginHorizontal="20dp"
+                    android:paddingTop="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/ic_envelope_solid"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/white"
+                    android:fontFamily="@font/montserratregular"
+                    android:paddingStart="15dp"
+                    android:text="----  Vacio  -----"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:weightSum="2">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnBuscarAlumnRAC"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_below="@+id/tvCorreoAlumn2RAC"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:background="@drawable/custom_button_register"
+                        android:fontFamily="@font/montserratbold"
+                        android:text="Buscar"
+                        android:textAlignment="center"
+                        android:textColor="@color/blueoscuro" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnRegistrarAlumnRAC"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:layout_below="@+id/tvCorreoAlumn2RAC"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/custom_button_register"
+                        android:fontFamily="@font/montserratbold"
+                        android:layout_marginHorizontal="20dp"
+                        android:text="Registrar"
+                        android:textAlignment="center"
+                        android:textColor="@color/blueoscuro"
+                        android:visibility="invisible" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/BtExcel"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@+id/tvCorreoAlumn2RAC"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button_blue"
+                android:fontFamily="@font/montserratbold"
+                android:paddingHorizontal="10dp"
+                android:text="Ingresar Excel"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvprobar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Nosoy/StudioProjects/Assist-UG/app/src/main/res/layout/activity_alumnos_horario_det.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/Nosoy/StudioProjects/Assist-UG/app/src/main/res/layout/activity_asistencia_alumnos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nosoy/StudioProjects/Assist-UG/app/src/main/res/layout/activity_asistencia_alumnos_maestro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Nosoy/StudioProjects/Assist-UG/app/src/main/res/layout/activity_lista_alumnos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Tio Sinilsa/OneDrive/Escritorio/Jenny/Tesis/AssistUG/Assist-UG/app/src/main/res/layout/activity_alumnos_horario.xml" value="0.2" />
+        <entry key="..\:/Users/Tio Sinilsa/OneDrive/Escritorio/Jenny/Tesis/AssistUG/Assist-UG/app/src/main/res/layout/activity_editar_horario.xml" value="0.2" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/drawable/eyes.xml" value="0.347" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_asistencia_alumnos.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_asistencia_alumnos_maestro.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_asistencia_dias.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_crear_horario.xml" value="0.24909420289855072" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_informacion_curso.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_olvidecontra.xml" value="0.5" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_register_activity.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_register_maestros.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/activity_registrar_alumno_curso.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/Assist-UG/app/src/main/res/layout/rv_asistencia_alumno_alumno.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/animation_dropup.xml" value="0.1" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/button_cancel_backgroud.xml" value="0.3295" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_button_blue.xml" value="0.16" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_button_register.xml" value="0.1745" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_cardview.xml" value="0.1" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_cardview_1.xml" value="0.2045" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_cardview_round.xml" value="0.2775" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_cardview_white.xml" value="0.2045" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_cardview_white_redounded.xml" value="0.16" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/custom_input.xml" value="0.33" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/dialog_backgroud.xml" value="0.3295" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_address_card_solid.xml" value="0.2735" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_baseline_person_add_alt_1_24.xml" value="0.2105" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_book_open_reader_solid.xml" value="0.3295" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_book_solid.xml" value="0.2605" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_camera_solid.xml" value="0.219" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_face_grin_beam_sweat_solid.xml" value="0.238" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2735" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_user_solid.xml" value="0.3505" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_users_solid.xml" value="0.3505" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/drawable/ic_users_solid_big.xml" value="0.3295" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_alumnos_horario.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_alumnos_horario_det.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_asistencia_alumnos.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_asistencia_alumnos_maestro.xml" value="0.20652173913043478" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_asistencia_dias.xml" value="0.21" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_crear_curso.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_crear_horario.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_editar_horario.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_horarios_individual.xml" value="0.22" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_informacion_curso.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_lista_alumnos.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_menu.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_olvidecontra.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_qr_alumno.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_qr_maestro.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_register_activity.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_register_maestros.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_registrar_alumno_curso.xml" value="0.25" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/activity_registrar_alumno_curso_admin.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/item_dias_semana.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/item_horario_det.xml" value="0.5" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/item_horario_individual.xml" value="0.33" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/item_lista_alumno.xml" value="0.33605072463768115" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/item_perzonalizado_list_spinner.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/layout_edittext.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/layout_edittext_password.xml" value="0.5" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/layout_edittext_password_new.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/layout_spinner.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/materias_item_rv.xml" value="0.33" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/nav_cabezera.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/rv_asistencia_alumno.xml" value="0.5" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/rv_asistencia_dias.xml" value="0.5" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/rv_curso_row.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/layout/style_spinner.xml" value="0.3489583333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/menu/menu_opciones.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2605" />
+        <entry key="..\:/Users/joshu/AndroidStudioProjects/AssistUG/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1495" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

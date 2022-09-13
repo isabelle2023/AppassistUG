@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:fontFamily="@font/montserratbold"
+                android:text="Inicia Sesión"
+                android:textAlignment="center"
+                android:textColor="@color/blueoscuro"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="202dp"
+                android:src="@drawable/logoug" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/cardviewlogin"
+            android:layout_weight=".7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_cardview"
+            android:orientation="vertical"
+            android:paddingBottom="30dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="18dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/montserratbold"
+                        android:text="Correo institucional"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:id="@+id/etCorreologin"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="5dp"
+                        android:background="@drawable/custom_input"
+                        android:drawableStart="@drawable/ic_envelope_solid"
+                        android:drawablePadding="10dp"
+                        android:drawableTint="@color/white"
+                        android:ems="10"
+                        android:fontFamily="@font/montserratregular"
+                        android:hint="Correo"
+                        android:inputType="textPersonName"
+                        android:lineSpacingExtra="8sp"
+                        android:paddingStart="10dp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="10dp"
+                        android:fontFamily="@font/montserratbold"
+                        android:text="Contraseña"
+                        android:textColor="@color/white" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/txtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="5dp"
+                        app:boxStrokeWidth="0dp"
+                        app:boxStrokeWidthFocused="0dp"
+                        app:passwordToggleDrawable="@drawable/eyes"
+                        app:helperTextTextColor="@color/white"
+                        app:hintEnabled="false"
+                        app:passwordToggleEnabled="true"
+                        app:passwordToggleTint="@android:color/white"
+                        app:placeholderTextColor="@color/white">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etContraLogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:background="@drawable/custom_input"
+                            android:drawableStart="@drawable/ic_lock_solid"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/white"
+                            android:fontFamily="@font/montserratregular"
+                            android:hint="Contraseña"
+                            android:inputType="textPassword"
+                            android:paddingStart="10dp"
+                            android:textColor="@color/white"
+                            android:textSize="18dp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btolvidar"
+                        style="@style/Widget.AppCompat.ActionButton"
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/montserratregular"
+                        android:textSize="18dp"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginVertical="5dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="right"
+                        android:text="Olvidé mi contraseña"
+                        android:textColor="@color/blueclaro" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/montserratbold"
+                        android:layout_marginHorizontal="20dp"
+                        android:text="No soy un robot" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btiniciar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="60dp"
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/custom_button_register"
+                        android:backgroundTint="@color/white"
+                        android:fontFamily="@font/montserratbold"
+                        android:gravity="center|center_horizontal"
+                        android:text="Iniciar Sesión"
+                        android:textAlignment="center"
+                        android:textColor="@color/blueoscuro" />
+                </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

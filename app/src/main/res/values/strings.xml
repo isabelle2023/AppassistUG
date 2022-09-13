@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assist UG</string>
+    <string name="storage_access_required">Se requiere acceder al almacenamiento del dispositivo</string>
+    <string name="storage_access_denied">No se tiene acceso al almacenamiento del dispositivo</string>
+    <string name="storage_unavailable">No se tiene almacenamiento disponible</string>
+    <string name="seleccion_car">Seleccione una carrera</string>
+</resources>

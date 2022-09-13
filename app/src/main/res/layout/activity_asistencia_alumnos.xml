@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.AsistenciaAlumnosActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lyContenedorAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginVertical="10dp"
+        >
+
+        <ImageButton
+            android:id="@+id/btbackasistencia"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#00FFFFFF"
+            android:rotation="90"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/ic_arrow_down_solid" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserratbold"
+            android:text="Reporte de asistencia"
+            android:textAlignment="center"
+            android:textColor="@color/blueoscuro"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/LLnoAlumnosGA"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No tienes asistencias registradas"
+                android:layout_marginVertical="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/blueoscuro"
+                android:fontFamily="@font/montserratbold"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_face_grin_beam_sweat_solid" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/LLAlumno"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight = ".20"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/table_title"
+                android:weightSum="3">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".93"
+                    android:fontFamily="@font/montserratbold"
+                    android:text="Nombre"
+                    android:paddingStart="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+
+                    android:fontFamily="@font/montserratbold"
+                    android:text="Estatus"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".9"
+                    android:fontFamily="@font/montserratbold"
+                    android:text="Fecha"
+                    android:paddingHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_asistencia_alumno_a"
+                android:background="@drawable/table_backgroud"
+                android:paddingBottom="2dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+
+
+
+</LinearLayout>

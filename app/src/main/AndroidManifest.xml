@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aplication.assistug">
+
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".activity.AsistenciaAlumnosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditarHorarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AsistenciaAlumnosMaestroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AsistenciaDiasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HorariosIndividualActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ListaAlumnosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AlumnosHorarioDetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AlumnosHorarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegistrarAlumnoCursoAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegisterActivityMaestros"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegistrarAlumnoCurso"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CrearHorario"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CrearCurso"
+            android:exported="false" />
+        <activity
+            android:name=".activity.QrAlumnoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.QrMaestroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.InformacionCursoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OlvidecontraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

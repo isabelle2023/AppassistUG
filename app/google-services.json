@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "355328555366",
+    "firebase_url": "https://assistug-default-rtdb.firebaseio.com",
+    "project_id": "assistug",
+    "storage_bucket": "assistug.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355328555366:android:32f2a89204deedf4c2b0a7",
+        "android_client_info": {
+          "package_name": "com.aplication.assistug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355328555366-6k87ko0vkolgann8t3k72tmnuev7qssu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQmYOz9hLA1HmexUnV6hsYU6h2gBIs1Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355328555366-6k87ko0vkolgann8t3k72tmnuev7qssu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355328555366:android:082778b2d96af932c2b0a7",
+        "android_client_info": {
+          "package_name": "com.igrtec.assistug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355328555366-6k87ko0vkolgann8t3k72tmnuev7qssu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQmYOz9hLA1HmexUnV6hsYU6h2gBIs1Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355328555366-6k87ko0vkolgann8t3k72tmnuev7qssu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
